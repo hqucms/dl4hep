@@ -11,7 +11,7 @@ echo "args: $@"
 suffix=${COMMENT}
 
 epochs=20
-dataopts="--num-workers 0 --fetch-step 1"
+dataopts="--num-workers 1 --fetch-step 1"
 
 # model: ParT, PN, PFN, PCNN
 model=$1
